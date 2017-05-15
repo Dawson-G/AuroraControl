@@ -1,5 +1,3 @@
-package com.Dawson.AuroraControl;
-
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
@@ -50,7 +48,7 @@ public class Main {
 		System.out.println(connection.getResponseCode());
 	}
 
-	static String auroraUrl = "http://192.168.229.3:16021/api/beta/z6zZqMeKMiOhMhAdUAkzREldxNanK34I";
+	static String auroraUrl = "http://<aurora ip>:16021/api/beta/<aurora key>";
 	static String effects[];
 	static boolean onState;
 	static int brightness;
